@@ -1,0 +1,31 @@
+/* Cuando una tipografia en su nombre tenga espacios siempre se debe colocar 
+entre colmillas por ejemplo "Times New Roman", si tengo creada una tipografia 
+como FalconMasters se tiene que colocar entre comillas y si quiero que 
+la vean otros usuarios  tendria que estar instaladas en sus computadoras si no
+no cargaria ese tipo de letra*/
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: justify;
+    letter-spacing: 10px; /*espaciado en cada letra de un texto*/
+    line-height: 30px;/*espacio o altura (en word interlineado) entre cada linea*/
+}
+
+h1 {
+    font-family: "Times New Roman", Arial; /*tipo de letra*/
+    font-size: 28px;/*tamaño de la tipografia*/
+    font-style: italic; /* ya sea italica o normal*/
+    font-weight: normal; /*bold: negritas,*/
+    color: #4281ed; /*le da el color a la fuente o tipografia*/
+    text-align: center; /* alinear a la derecha, izquierda o centrado 
+    por defecto se encuentra en left*/
+    text-decoration: underline;/* text-decoration le da decoracion a la palabra 
+    o texto ,underline coloca un subrayado en la palabra*/
+    text-transform: uppercase;/*uppercase : todas letras mayusculas, lowercase:
+    todas las letras minusculas, capitalize: la primera letra de cada ´palabra
+    o frase se transforma en mayucula*/;
+
+
+}
